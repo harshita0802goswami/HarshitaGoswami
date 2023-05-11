@@ -1295,7 +1295,7 @@
       : "object" == typeof exports
       ? (module.exports = j)
       : D.startOnPageLoad && j.start();
-}.call(this));
+}).call(this);
 !(function (a, b) {
   "use strict";
   "object" == typeof module && "object" == typeof module.exports
@@ -10516,7 +10516,7 @@
       : "object" == typeof module && module.exports
       ? (module.exports = e)
       : (this.EventEmitter = e);
-}.call(this),
+}).call(this),
   (function (e) {
     function t(t) {
       var n = e.event;
@@ -10783,7 +10783,7 @@
       o.makeJQueryPlugin(),
       o
     );
-  }));
+  });
 !(function (a) {
   "use strict";
   "function" == typeof define && define.amd
